@@ -1,4 +1,4 @@
-# `DB` [AI Processor][https://github.com/app-generator/ai-processor]  
+# `DataBase` [AI Processor](https://github.com/app-generator/ai-processor)
 
 Simple tool that extracts information from an SQLite source using human language queries. The stack uses a NextJs frontend and a Django (API) for users management and OpenAI interface.  
 
@@ -76,4 +76,4 @@ Once another SQLite file is uploaded, we can query other specific questions.
 <br />
 
 ---
-`DB` [AI Processor][https://github.com/app-generator/ai-processor] - AI/ML Starter provideed **[AppSeed](https://appseed.us)**.
+`DataBase` [AI Processor](https://github.com/app-generator/ai-processor) - AI/ML Starter provideed **[AppSeed](https://appseed.us)**.
