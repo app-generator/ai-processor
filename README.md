@@ -69,6 +69,23 @@ Once another SQLite file is uploaded, we can query other specific questions.
 
 <br />
 
+## Tools
+
+Outside UI, we can query different sources like PDF files or distant APIs:
+
+```bash
+$ cd tools
+$ virtualenv env                   # create a new virtual environment  
+$ source env/bin/activate          # activate the VENV
+$ pip install -r requirements.txt  # install modules 
+$ vi .env                          # Save OpenAI KEY
+$ python ai-over-api-meteo.py      # Extract METEO information using distant API
+$ python ai-over-pdf.py            # Extract information from a local PDF file
+
+```
+
+<br />
+
 ## License
 
 [@EULA](https://github.com/app-generator/license-eula)
