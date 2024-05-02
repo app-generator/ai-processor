@@ -1,6 +1,6 @@
 # `DataBase` [AI Processor](https://github.com/app-generator/ai-processor)
 
-Simple tool that extracts information from an SQLite source using human language queries. The stack uses a NextJs frontend and a Django (API) for users management and OpenAI interface.  
+Simple tool that extracts information from an SQLite source using human language queries. The stack uses a `NextJs` frontend and a `Django` (API) for users management and OpenAI interface.  
 
 <br />
 
@@ -15,10 +15,10 @@ $ cd priv-ai-processor
 
 > **Django** Backend
 
-Edit `backend-Django/.env` and add you own `OpenAI API KEY`. 
+Edit `backend/.env` and add you own `OpenAI API KEY`. 
 
 ```bash
-$ cd backend-Django                # change DIR to the backend code 
+$ cd backend                       # change DIR to the backend code 
 $ virtualenv env                   # create a new virtual environment  
 $ source env/bin/activate          # activate the VENV
 $ pip install -r requirements.txt  # install modules 
@@ -34,10 +34,10 @@ The backend starts on Django's default address: `http://localhost:8000`
 > **NextJS** UI 
 
 ```bash
-$ cd frontend-Nextjs                # change DIR to the frontend code  
-$ npm install -g next               # Install NextJs globally
-$ npm i                             # install dependencies
-$ npm run dev                       # Start the development Next Server
+$ cd frontend                # change DIR to the frontend code  
+$ npm install -g next        # Install NextJs globally
+$ npm i                      # install dependencies
+$ npm run dev                # Start the development Next Server
 ```
 
 <br />
